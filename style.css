@@ -1,0 +1,185 @@
+
+.carousel-caption h1{
+	font-size: 55px;
+}
+
+.carousel-indicators .bg-light{
+	border-radius: 10px;
+	width: 5% !important;
+}
+
+.section2 #moment1{
+	display: none !important;
+}
+
+.toast{
+	border-radius: 0!important;
+	border-left: 10px solid #3F87F5 !important;
+	border-right: none !important;
+	border-top: none !important;
+	border-bottom: none !important;
+	position: absolute;
+	right: 0;
+}
+
+
+.marriage-details a{
+	border-radius: 0;
+}
+.marriage-details-title h4{
+	font-weight: bold;
+}
+.package-elements{
+	border-radius: 30px;
+}
+.package-details ul{
+	list-style: none;
+	padding: 0;
+}
+.package-details ul li a{
+	text-decoration: none;
+}
+
+.package-details a{
+	border-radius: 30px;
+}
+#general1 .other-btn{
+	background: rgba(218, 208, 208, 0.4);
+}
+#general  li a i{
+	color: purple;
+}
+
+.section4 .clients .card{
+	border: 1px solid #ffffff;
+}
+
+.section5 .accordion-item {
+	border-radius: 5px !important;	
+}
+
+.section5 .accordion-button{
+	color: #383838 !important;
+	background-color: #ffffff !important;
+}
+.section5 button:focus{
+	outline: 0;
+	box-shadow: none !important;
+}
+
+
+footer{
+	background-color: #0B0D17;
+}
+.app img{
+	width: 25%;
+	
+}
+
+footer .app-heading span{
+		margin-right: 30px;
+	}
+footer #footer1, .section5 #qs1{
+	display: none;
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+	
+	.carousel-caption h1{
+		font-size: 10px !important;
+
+	}
+	.carousel-caption p{
+		font-size: 8px;
+		margin-bottom: 5px !important;
+	}
+
+	.carousel-caption a{
+		margin-bottom: 0px !important;
+		font-size: 8px;
+	}
+
+
+	.carousel-item img{
+		width: 100% !important;
+	}
+	.navbar-brand{
+		font-size: 15px !important;
+	}
+	.section1{
+		width: 100%;
+		
+	}
+	.carousel-caption{
+		padding: 0;
+	}
+
+	.section2 .container{
+		flex-direction: column !important;
+	}
+
+	.section2 #moment1{
+		display: block !important;
+	}
+
+	.section2 #moment{
+		display: none !important;
+	}
+	#moment1 .marriage-img{
+		margin: 0 !important;
+
+	}
+	#moment1 .marriage-btn{
+
+		display: flex;
+		justify-content: center;
+
+	}
+
+
+	.section3 .packages{
+		display: flex;
+		flex-direction: column !important;
+	}
+	.section4 .clients .card-details{
+		margin-right: 0 !important;
+		margin-left: 0 !important;
+	}
+
+	.section5 #qs{
+		display: none;
+	}
+
+	.section5 #qs1{
+		display: block;
+	}
+
+
+
+	footer #footer{
+		display: none;
+	}
+
+	.app img{
+	width: 70%;
+	
+	}
+	footer .app{
+		padding-bottom: 0 !important;
+	}
+
+
+	footer #footer1{
+	display: block;
+
+	}
+
+
+
+
+
+
+}
